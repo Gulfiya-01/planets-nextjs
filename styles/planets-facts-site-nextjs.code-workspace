@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Downloads/team1-planets-fact-site"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "planets-facts-site-nextjs"
+	}
+}

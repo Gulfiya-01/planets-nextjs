@@ -1,0 +1,37 @@
+*{ 
+  padding:0; 
+  margin:0; 
+  box-sizing: border-box; 
+} 
+@font-face { 
+  font-family: Spartan; 
+  src:url(./fonts/spartan-cufonfonts/Spartan-Bold.ttf); 
+  font-family: var(--font-antonio);
+} 
+@font-face { 
+  font-family: Spartan Reg; 
+  src: url(./fonts/spartan-cufonfonts/Spartan-Regular.ttf); 
+  
+} 
+
+body { 
+background-color:  #070724; 
+padding:1rem 1.5rem 0rem 1rem; 
+background-image: url('../public/assets/bacground.svg'); 
+color: white;
+} 
+ 
+@media only screen and (min-width: 765px) 
+{ 
+  body { 
+  padding:2rem 2.5rem 2.25rem 2.4rem; 
+} 
+ 
+} 
+@media only screen and (min-width:1024px) 
+{ 
+  body { 
+  padding:1.4rem 2rem 3.5rem 2rem; 
+  
+} 
+} 

@@ -1,0 +1,32 @@
+*{ 
+    padding:0; 
+    margin:0; 
+    box-sizing: border-box; 
+  } 
+  @font-face { 
+    font-family: Spartan Reg; 
+    src: url(../lib/spartan-cufonfonts/Spartan-Regular.ttf); 
+    font-family: Spartan; 
+    src:url(../lib/spartan-cufonfonts/Spartan-Bold.ttf);
+    
+  } 
+  body { 
+  background-color:  #070724; 
+  padding:1rem 1.5rem 0rem 1rem; 
+  background-image: url('assets/bacground.svg'); 
+  } 
+   
+  @media only screen and (min-width: 765px) 
+  { 
+    body { 
+    padding:2rem 2.5rem 2.25rem 2.4rem; 
+  } 
+   
+  } 
+  @media only screen and (min-width:1024px) 
+  { 
+    body { 
+    padding:1.4rem 2rem 3.5rem 2rem; 
+    
+  } 
+  } 
